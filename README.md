@@ -1,0 +1,1 @@
+This repository contains a SystemVerilog RTL implementation of a hardware password verification system. The core of the design is a Finite State Machine (FSM) that processes sequential input combinations. It is designed to act as a digital lock, advancing through internal states only when the correct sequence of inputs is provided, and resetting upon incorrect entries.
