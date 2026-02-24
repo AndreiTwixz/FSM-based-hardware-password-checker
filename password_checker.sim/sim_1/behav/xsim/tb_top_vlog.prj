@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../password_checker.srcs/sources_1/new/counter_6b.sv" \
+"../../../../password_checker.srcs/sources_1/new/demux.sv" \
+"../../../../password_checker.srcs/sources_1/new/pass_check_fsm.sv" \
+"../../../../password_checker.srcs/sources_1/new/ram_64x8b.sv" \
+"../../../../password_checker.srcs/sources_1/new/reg_6b.sv" \
+"../../../../password_checker.srcs/sources_1/new/top.sv" \
+"../../../../password_checker.srcs/sources_1/new/vowel_checker_struct.sv" \
+"../../../../password_checker.srcs/sim_1/new/tb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
